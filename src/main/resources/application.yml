@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: reaspring
+jwt:
+  secret: "8MQ1K8hcN3Nug/FKRGp+PUXkgZSQv9PvZmoovpgQw58="
+  expiration: 86400000  # 1 ???????
