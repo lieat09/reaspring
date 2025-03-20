@@ -1,6 +1,5 @@
 package io.github.pinjie.reaspring.service;
 
-import ch.qos.logback.core.pattern.color.BoldCyanCompositeConverter;
 import io.github.pinjie.reaspring.config.JwtUtil;
 import io.github.pinjie.reaspring.dto.UserDto;
 import io.github.pinjie.reaspring.entity.User;

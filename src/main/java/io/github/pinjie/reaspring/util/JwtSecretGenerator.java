@@ -2,10 +2,8 @@ package io.github.pinjie.reaspring.util;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Encoders;
-import io.jsonwebtoken.security.Keys;
 
 import javax.crypto.SecretKey;
-import java.security.Key;
 
 public class JwtSecretGenerator {
 	public static void main(String[] args) {
