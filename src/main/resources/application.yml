@@ -1,6 +1,20 @@
 spring:
   application:
     name: reaspring
+  datasource:
+    url: jdbc:h2:mem:testdb  # 使用 H2 內存資料庫
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update  # 啟動時自動建立表格
+  h2:
+    console:
+      enabled: true  # 啟用 H2 Web Console
+      path: /h2-console  # 讓你可以透過瀏覽器管理 H2 DB
+
 jwt:
   secret: "8MQ1K8hcN3Nug/FKRGp+PUXkgZSQv9PvZmoovpgQw58="
   expiration: 86400000
