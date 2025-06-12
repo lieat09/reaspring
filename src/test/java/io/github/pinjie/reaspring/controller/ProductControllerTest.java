@@ -1,6 +1,5 @@
 package io.github.pinjie.reaspring.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.pinjie.reaspring.dto.ProductDto;
 import org.junit.jupiter.api.Test;
